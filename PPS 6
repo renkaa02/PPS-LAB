@@ -1,0 +1,13 @@
+a= float(input("Enter the first number: "))
+b=float(input("Enter the second number: "))
+c=float(input("Enter the third number: "))
+if a>b:
+	if a>c :
+		print("Largest number:",a)
+	else:
+		print("Largest number:",c)
+else:
+	if b>c :
+		print("Largest number:",b)
+	else:
+		print("Largest number:",c)
