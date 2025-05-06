@@ -1,0 +1,4 @@
+ch = str(input())
+for i in range(len(ch)):
+	print(ch[len(ch)-i-1],end = "")
+print("\n")
