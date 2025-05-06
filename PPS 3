@@ -1,0 +1,4 @@
+S=int(input("S:")) 
+power = pow(S,2)
+print(power)
+# Make use of the value of S read using the input function.
