@@ -1,0 +1,24 @@
+
+def digitmul(k):
+	sk = int(k)
+	pro = 1
+	while sk != 0:
+		r = int(sk%10)
+		pro = pro*r
+		sk = int(sk/10)
+	
+	return pro
+a = int(input("digit1 (0-9): "))
+b = int(input("digit2 (0-9): "))
+c = int(input("digit3 (0-9): "))
+if a > 9 or b > 9 or c > 9:
+	print("Invalid\n")
+else:
+	f = a*100+b*10+c
+	l = c*100+b*10+c
+	o = digitmul(f)
+	for i in range(f,l+1):
+		if digitmul(i)== o and i != 161:
+			print(i)
+			
+			
